@@ -1,0 +1,23 @@
+name: Create Index HTML
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Create index.html
+      run: |
+        find . -type d -exec sh -c 'echo "<html><head><meta http-equiv=\"refresh\" content=\"0; url=README.zh.md\"></head><body></body></html>" > {}/index.html' \;
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Add index.html for redirection to README.zh.md"
+        git push
