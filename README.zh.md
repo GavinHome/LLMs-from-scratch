@@ -89,7 +89,7 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 
 ## 硬件要求
 
-本书主要章节中的代码旨在在合理的时间范围内在传统笔记本电脑上运行，并且不需要专门的硬件。这种方法可确保广大受众能够参与其中。此外，如果 GPU 可用，代码会自动利用它们。（请参阅 [setup](https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/README.md) 文档以获取更多建议。）
+本书主要章节中的代码旨在在合理的时间范围内在传统笔记本电脑上运行，并且不需要专门的硬件。这种方法可确保广大受众能够参与其中。此外，如果 GPU 可用，代码会自动利用它们。（请参阅 [setup](https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/README.zh.md) 文档以获取更多建议。）
 
 &nbsp;
 ## 奖励材料
@@ -97,9 +97,9 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 几个文件夹包含可选材料，作为对感兴趣的读者的奖励：
 
 - **设置**
-  - [Python 设置提示](setup/01_optional-python-setup-preferences)
-  - [安装本书中使用的 Python 包和库](setup/02_installing-python-libraries)
-  - [Docker 环境设置指南](setup/03_optional-docker-environment)
+  - [Python 设置提示](setup/01_optional-python-setup-preferences/README.zh.md)
+  - [安装本书中使用的 Python 包和库](setup/02_installing-python-libraries/README.zh.md)
+  - [Docker 环境设置指南](setup/03_optional-docker-environment/README.zh.md)
 - **第 2 章：使用文本数据**
   - [比较各种字节对编码 (BPE) 实现](ch02/02_bonus_bytepair-encoder)
   - [理解嵌入层和线性层之间的区别](ch02/03_bonus_embedding-vs-matmul)
