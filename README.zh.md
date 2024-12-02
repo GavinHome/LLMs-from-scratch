@@ -1,4 +1,4 @@
-中文 | [English](./README.md)
+[English](./README.md) | 中文
 
 # 构建大型语言模型（从头开始）
 
@@ -149,7 +149,7 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 
 > Raschka, Sebastian. *Build A Large Language Model (From Scratch)*. Manning, 2024. ISBN: 978-1633437166.
 
-BibTeX entry:
+BibTeX 条目:
 
 ```
 @book{build-llms-from-scratch-book,
