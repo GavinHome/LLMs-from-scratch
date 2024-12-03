@@ -23,4 +23,4 @@ jobs:
         git config --local user.name "GitHub Action"
         git add .
         git commit -m "Add index.html for redirection to README.zh.md"
-        git push https://${{ secrets.ACTIONS_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+        git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
