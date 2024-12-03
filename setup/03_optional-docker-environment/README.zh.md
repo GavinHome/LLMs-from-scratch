@@ -2,7 +2,7 @@
 
 如果您更喜欢隔离项目依赖项和配置的开发设置，使用 Docker 是一种非常有效的解决方案。这种方法消除了手动安装软件包和库的需要，并确保了一致的开发环境。
 
-如果您更喜欢使用 [../01_optional-python-setup-preferences](../01_optional-python-setup-preferences) 和 [../02_installing-python-libraries](../02_installing-python-libraries) 中介绍的 conda 方法，本指南将引导您完成为本书设置可选 docker 环境的过程。
+如果您更喜欢使用 [../01_optional-python-setup-preferences](../01_optional-python-setup-preferences/README.zh.md) 和 [../02_installing-python-libraries](../02_installing-python-libraries/README.zh.md) 中介绍的 conda 方法，本指南将引导您完成为本书设置可选 docker 环境的过程。
 
 <br>
 

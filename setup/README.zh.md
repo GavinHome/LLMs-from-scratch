@@ -23,8 +23,8 @@ pip install -r requirements.txt
 
 如果您尚未在计算机上设置 Python，我在以下目录中写了关于我个人 Python 设置首选项的内容：
 
-- [01_optional-python-setup-preferences](./01_optional-python-setup-preferences)
-- [02_installing-python-libraries](./02_installing-python-libraries)
+- [01_optional-python-setup-preferences](./01_optional-python-setup-preferences/README.zh.md)
+- [02_installing-python-libraries](./02_installing-python-libraries/README.zh.md)
 
 下面的 *使用 DevContainers* 部分概述了在您的计算机上安装项目依赖项的替代方法。
 
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 作为上述 *设置 Python* 部分的替代方案，如果您更喜欢隔离项目依赖项和配置的开发设置，使用 Docker 是一种非常有效的解决方案。这种方法无需手动安装软件包和库，并确保了一致的开发环境。您可以找到有关设置 Docker 和使用 DevContainer 的更多说明：
 
-- [03_optional-docker-environment](03_optional-docker-environment)
+- [03_optional-docker-environment](03_optional-docker-environment/README.zh.md)
 
 &nbsp;
 

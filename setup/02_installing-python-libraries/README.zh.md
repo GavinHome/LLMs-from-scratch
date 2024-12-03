@@ -1,6 +1,6 @@
 # 安装本书中使用的 Python 包和库
 
-本文档提供了有关仔细检查已安装的 Python 版本和包的更多信息。（有关安装 Python 和 Python 包的更多信息，请参阅 [../01_optional-python-setup-preferences](../01_optional-python-setup-preferences) 文件夹。）
+本文档提供了有关仔细检查已安装的 Python 版本和包的更多信息。（有关安装 Python 和 Python 包的更多信息，请参阅 [../01_optional-python-setup-preferences](../01_optional-python-setup-preferences/README.zh.md) 文件夹。）
 
 我为本书使用了 [此处](https://github.com/rasbt/LLMs-from-scratch/blob/main/requirements.txt) 列出的以下库。这些库的较新版本也可能兼容。但是，如果您遇到任何代码问题，您可以尝试使用这些库版本作为后备。
 
