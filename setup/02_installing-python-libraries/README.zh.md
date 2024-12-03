@@ -4,7 +4,7 @@
 
 我为本书使用了 [此处](https://github.com/rasbt/LLMs-from-scratch/blob/main/requirements.txt) 列出的以下库。这些库的较新版本也可能兼容。但是，如果您遇到任何代码问题，您可以尝试使用这些库版本作为后备。
 
-为了最方便地安装这些要求，您可以使用此代码存储库根目录中的“requirements.txt”文件并执行以下命令：
+为了最方便地安装这些要求，您可以使用此代码存储库根目录中的 `requirements.txt` 文件并执行以下命令：
 
 ```bash
 pip install -r requirements.txt

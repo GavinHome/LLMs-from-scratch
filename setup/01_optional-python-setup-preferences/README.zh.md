@@ -32,7 +32,7 @@ sh ~/Desktop/Miniforge3-MacOSX-arm64.sh
 
 ## 2. 创建新的虚拟环境
 
-安装成功完成后，我建议创建一个名为“LLMs”的新虚拟环境，您可以通过执行以下指令来执行此操作
+安装成功完成后，我建议创建一个名为`LLMs`的新虚拟环境，您可以通过执行以下指令来执行此操作
 
 ```bash
 conda create -n LLMs python=3.10

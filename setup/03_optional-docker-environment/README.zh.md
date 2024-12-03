@@ -37,40 +37,40 @@ mv setup/03_optional-docker-environment/.devcontainer ./
 
 4. 如果您有 [支持 CUDA 的 GPU](https://developer.nvidia.com/cuda-gpus)，则可以加快训练和推理速度：
 
-3.1 按照 [此处](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installing-with-apt) 所述安装 **NVIDIA Container Toolkit**。 NVIDIA Container Toolkit 的支持情况如 [此处](https://docs.nvidia.com/cuda/wsl-user-guide/index.html#nvidia-compute-software-support-on-wsl-2) 所述。
+    4.1 按照 [此处](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installing-with-apt) 所述安装 **NVIDIA Container Toolkit**。 NVIDIA Container Toolkit 的支持情况如 [此处](https://docs.nvidia.com/cuda/wsl-user-guide/index.html#nvidia-compute-software-support-on-wsl-2) 所述。
 
-3.2 在 Docker Engine 守护进程配置中添加 _nvidia_ 作为运行时（参见 _Docker Desktop_ -> _更改设置_ -> _Docker Engine_）。将这些行添加到您的配置中：
+    4.2 在 Docker Engine 守护进程配置中添加 _nvidia_ 作为运行时（参见 _Docker Desktop_ -> _更改设置_ -> _Docker Engine_）。将这些行添加到您的配置中：
 
-```json
-“runtimes”：{
-“nvidia”：{
-“path”：“nvidia-container-runtime”，
-“runtimeArgs”：[]
-```
+    ```json
+    "runtimes": {
+        "nvidia": {
+        "path": "nvidia-container-runtime",
+        "runtimeArgs": []
+    ```
 
-例如，完整的 Docker Engine 守护进程配置 json 代码应如下所示：
+    例如，完整的 Docker Engine 守护进程配置 json 代码应如下所示：
 
-```json
-{
-“builder”：{
-“gc”：{
-“defaultKeepStorage”：“20GB”，
-“enabled”：true
-}
-},
-“experimental”：false，
-“runtimes”：{
-“nvidia”：{
-“path”：“nvidia-container-runtime”，
-“runtimeArgs”：[]
-}
-}
-}
-```
+    ```json
+    {
+        "builder": {
+        "gc": {
+            "defaultKeepStorage": "20GB",
+            "enabled": true
+        }
+        },
+        "experimental": false,
+        "runtimes": {
+        "nvidia": {
+            "path": "nvidia-container-runtime",
+            "runtimeArgs": []
+        }
+        }
+    }
+    ```
 
-并重新启动 Docker Desktop。
+    并重新启动 Docker Desktop。
 
-5. 在终端中输入“code .”以在 VS Code 中打开项目。或者，您可以启动 VS Code 并从 UI 中选择要打开的项目。
+5. 在终端中输入 `code .` 以在 VS Code 中打开项目。或者，您可以启动 VS Code 并从 UI 中选择要打开的项目。
 
 6. 从左侧的 VS Code _Extensions_ 菜单安装 **Remote Development** 扩展。
 
