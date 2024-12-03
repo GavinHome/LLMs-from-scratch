@@ -162,7 +162,7 @@ python -u pretraining_simple.py | tee log.txt
 
 2. 更新数据准备和加载实用程序，以预先标记数据集并将其保存为标记形式，这样在调用预训练脚本时就不必每次都重新标记。
 
-3. 更新 `train_model_simple` 脚本，添加 [附录 D：为训练循环添加花哨功能](../../appendix-D/01_main-chapter-code/appendix-D.ipynb) 中介绍的功能，即余弦衰减、线性预热和梯度剪裁。
+3. 更新 `train_model_simple` 脚本，添加 [附录 D：为训练循环添加额外功能](../../appendix-D/01_main-chapter-code/appendix-D.ipynb) 中介绍的功能，即余弦衰减、线性预热和梯度剪裁。
 
 4. 更新预训练脚本以保存优化器状态（请参阅第 5 章中的 *5.4 在 PyTorch 中加载和保存权重* 部分；[ch05.ipynb](../../ch05/01_main-chapter-code/ch05.ipynb))，并添加加载现有模型和优化器检查点并在训练运行中断时继续训练的选项。
 5. 添加更高级的记录器（例如，权重和偏差）以实时查看损失和验证曲线

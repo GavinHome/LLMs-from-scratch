@@ -74,8 +74,8 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 | 附录 A：PyTorch 简介 | - [code-part1.ipynb](附录 A/01_main-chapter-code/code-part1.ipynb)<br/>- [code-part2.ipynb](附录 A/01_main-chapter-code/code-part2.ipynb)<br/>- [DDP-script.py](附录 A/01_main-chapter-code/DDP-script.py)<br/>- [exercise-solutions.ipynb](附录 A/01_main-chapter-code/exercise-solutions.ipynb) | [./appendix-A](./appendix-A) |
 | 附录 B：参考资料和进一步阅读                 | 无代码                                                                                                                          | -                             |
 | 附录 C：练习解决方案                             | 无代码                                                                                                                         | -                             |
-| 附录 D：在训练循环中添加花哨的东西 | - [appendix-D.ipynb](appendix-D/01_main-chapter-code/appendix-D.ipynb)                                                          | [./appendix-D](./appendix-D) |
-| 附录 E：使用 LoRA 进行参数高效微调       | - [appendix-E.ipynb](appendix-E/01_main-chapter-code/appendix-E.ipynb)                                                          | [./appendix-E](./appendix-E) |
+| 附录 D：在训练循环中添加花哨的东西 | - [appendix-D.ipynb](appendix-D/01_main-chapter-code/appendix-D.ipynb)                                                          | [./appendix-D](./appendix-D/README.zh.md) |
+| 附录 E：使用 LoRA 进行参数高效微调       | - [appendix-E.ipynb](appendix-E/01_main-chapter-code/appendix-E.ipynb)                                                          | [./appendix-E](./appendix-E/README.zh.md) |
 
 <br>
 &nbsp;
@@ -101,9 +101,9 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
   - [安装本书中使用的 Python 包和库](setup/02_installing-python-libraries/README.zh.md)
   - [Docker 环境设置指南](setup/03_optional-docker-environment/README.zh.md)
 - **第 2 章：使用文本数据**
-  - [比较各种字节对编码 (BPE) 实现](ch02/02_bonus_bytepair-encoder)
-  - [理解嵌入层和线性层之间的区别](ch02/03_bonus_embedding-vs-matmul)
-  - [使用简单数字的数据加载器直觉](ch02/04_bonus_dataloader-intuition)
+  - [比较各种字节对编码 (BPE) 实现](ch02/02_bonus_bytepair-encoder/README.zh.md)
+  - [理解嵌入层和线性层之间的区别](ch02/03_bonus_embedding-vs-matmul/README.zh.md)
+  - [使用简单数字的数据加载器直觉](ch02/04_bonus_dataloader-intuition/README.zh.md)
 - **第3：编码注意力机制**
   - [比较有效的多头注意力实现](ch03/02_bonus_efficient-multihead-attention/mha-implementations.ipynb)
   - [理解 PyTorch 缓冲区](ch03/03_understanding-buffers/understanding-buffers.ipynb)
@@ -111,25 +111,25 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
   - [FLOPS 分析](ch04/02_performance-analysis/flops-analysis.ipynb)
 - **第 5 章：对未标记数据进行预训练：**
   - [使用 Transformers 从 Hugging Face Model Hub 进行替代权重加载](ch05/02_alternative_weight_loading/weight-loading-hf-transformers.ipynb)
-  - [在 Project Gutenberg 上对 GPT 进行预训练数据集](ch05/03_bonus_pretraining_on_gutenberg)
-  - [为训练循环添加花哨功能](ch05/04_learning_rate_schedulers)
-  - [优化预训练的超参数](ch05/05_bonus_hparam_tuning)
-  - [构建用户界面与预训练的 LLM 交互](ch05/06_user_interface)
-  - [将 GPT 转换为 Llama](ch05/07_gpt_to_llama)
+  - [在 Project Gutenberg 上对 GPT 进行预训练数据集](ch05/03_bonus_pretraining_on_gutenberg/README.zh.md)
+  - [为训练循环添加额外功能](ch05/04_learning_rate_schedulers/README.zh.md)
+  - [优化预训练的超参数](ch05/05_bonus_hparam_tuning/README.zh.md)
+  - [构建用户界面与预训练的 LLM 交互](ch05/06_user_interface/README.zh.md)
+  - [将 GPT 转换为 Llama](ch05/07_gpt_to_llama/README.zh.md)
   - [从零开始构建 Llama 3.2](ch05/07_gpt_to_llama/standalone-llama32.ipynb)
   - [内存高效的模型权重加载](ch05/08_memory_efficient_weight_loading/memory-efficient-state-dict.ipynb)
 - **第 6 章：分类微调**
-  - [对不同层进行微调并使用更大模型的其他实验](ch06/02_bonus_additional-experiments)
-  - [在 50k IMDB 电影评论数据集上对不同模型进行微调](ch06/03_bonus_imdb-classification)
-  - [构建用户界面进行交互使用基于 GPT 的垃圾邮件分类器](ch06/04_user_interface)
+  - [对不同层进行微调并使用更大模型的其他实验](ch06/02_bonus_additional-experiments/README.zh.md)
+  - [在 50k IMDB 电影评论数据集上对不同模型进行微调](ch06/03_bonus_imdb-classification/README.zh.md)
+  - [构建用户界面进行交互使用基于 GPT 的垃圾邮件分类器](ch06/04_user_interface/README.zh.md)
 - **第 7 章：微调以遵循指令**
-  - [用于查找近似重复和创建被动语态条目的数据集实用程序](ch07/02_dataset-utilities)
-  - [使用 OpenAI API 和 Ollama 评估指令响应](ch07/03_model-evaluation)
+  - [用于查找近似重复和创建被动语态条目的数据集实用程序](ch07/02_dataset-utilities/README.zh.md)
+  - [使用 OpenAI API 和 Ollama 评估指令响应](ch07/03_model-evaluation/README.zh.md)
   - [生成用于指令微调的数据集](ch07/05_dataset-generation/llama3-ollama.ipynb)
   - [改进用于指令微调的数据集](ch07/05_dataset-generation/reflection-gpt4.ipynb)
   - [使用 Llama 3.1 70B 和Ollama](ch07/04_preference-tuning-with-dpo/create-preference-data-ollama.ipynb)
   - [LLM 对齐的直接偏好优化 (DPO)](ch07/04_preference-tuning-with-dpo/dpo-from-scratch.ipynb)
-  - [构建用户界面以与指令微调 GPT 模型交互](ch07/06_user_interface)
+  - [构建用户界面以与指令微调 GPT 模型交互](ch07/06_user_interface/README.zh.md)
 
 <br>
 &nbsp;
