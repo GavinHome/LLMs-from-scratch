@@ -1,8 +1,8 @@
 [英文](./README.en.md) | 中文
 
-# 构建大型语言模型（从头开始）
+# 构建大型语言模型（从零开始）
 
-此存储库包含用于开发、预训练和微调类似 GPT 的 LLM 的代码，是本书 [构建大型语言模型（从头开始）](https://amzn.to/4fqvn0D) 的官方代码存储库。
+此存储库包含用于开发、预训练和微调类似 GPT 的 LLM 的代码，是本书 [构建大型语言模型（从零开始）](https://amzn.to/4fqvn0D) 的官方代码存储库。
 
 <br>
 <br>
@@ -11,7 +11,7 @@
 
 <br>
 
-在 [*构建大型语言模型（从头开始）*](http://mng.bz/orYv) 中，您将通过从头开始逐步编码大型语言模型 (LLM)，从内到外学习和了解大型语言模型 (LLM) 的工作原理。在本书中，我将指导您创建自己的 LLM，并用清晰的文本、图表和示例解释每个阶段。
+在 [*构建大型语言模型（从零开始）*](http://mng.bz/orYv) 中，您将通过从零开始逐步编码大型语言模型 (LLM)，从内到外学习和了解大型语言模型 (LLM) 的工作原理。在本书中，我将指导您创建自己的 LLM，并用清晰的文本、图表和示例解释每个阶段。
 
 本书中描述的用于训练和开发您自己的小型但功能齐全的教育模型的方法反映了创建大型基础模型（例如 ChatGPT 背后的模型）所使用的方法。此外，本书还包括用于加载较大预训练模型的权重以进行微调的代码。
 
@@ -67,7 +67,7 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 | 第 1 章：了解大型语言模型 | 无代码 | [./ch01](./ch01/README.zh.md)   |
 | 第 2 章：使用文本数据 | - [ch02.ipynb](ch02/01_main-chapter-code/ch02.ipynb)<br/>- [dataloader.ipynb](ch02/01_main-chapter-code/dataloader.ipynb) (摘要)<br/>- [exercise-solutions.ipynb](ch02/01_main-chapter-code/exercise-solutions.ipynb) | [./ch02](./ch02) |
 | 第 3 章：编码注意力机制 | - [ch03.ipynb](ch03/01_main-chapter-code/ch03.ipynb)<br/>- [multihead-attention.ipynb](ch03/01_main-chapter-code/multihead-attention.ipynb) (摘要) <br/>- [exercise-solutions.ipynb](ch03/01_main-chapter-code/exercise-solutions.ipynb)| [./ch03](./ch03) |
-| 第 4 章：从头开始实现 GPT 模型 | - [ch04.ipynb](ch04/01_main-chapter-code/ch04.ipynb)<br/>- [gpt.py](ch04/01_main-chapter-code/gpt.py) (摘要)<br/>- [exercise-solutions.ipynb](ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](./ch04) |
+| 第 4 章：从零开始实现 GPT 模型 | - [ch04.ipynb](ch04/01_main-chapter-code/ch04.ipynb)<br/>- [gpt.py](ch04/01_main-chapter-code/gpt.py) (摘要)<br/>- [exercise-solutions.ipynb](ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](./ch04) |
 | 第 5 章：对未标记数据进行预训练 | - [ch05.ipynb](ch05/01_main-chapter-code/ch05.ipynb)<br/>- [gpt_train.py](ch05/01_main-chapter-code/gpt_train.py) (摘要) <br/>- [gpt_generate.py](ch05/01_main-chapter-code/gpt_generate.py) (摘要) <br/>- [exercise-solutions.ipynb](ch05/01_main-chapter-code/exercise-solutions.ipynb) | [./ch05](./ch05) |
 | 第 6 章：文本分类的微调 | - [ch06.ipynb](ch06/01_main-chapter-code/ch06.ipynb) <br/>- [gpt_class_finetune.py](ch06/01_main-chapter-code/gpt_class_finetune.py) <br/>- [exercise-solutions.ipynb](ch06/01_main-chapter-code/exercise-solutions.ipynb) | [./ch06](./ch06) |
 | 第 7 章：微调以遵循说明 | - [ch07.ipynb](ch07/01_main-chapter-code/ch07.ipynb)<br/>- [gpt_instruction_finetuning.py](ch07/01_main-chapter-code/gpt_instruction_finetuning.py) (摘要)<br/>- [ollama_evaluate.py](ch07/01_main-chapter-code/ollama_evaluate.py) (摘要)<br/>- [exercise-solutions.ipynb](ch07/01_main-chapter-code/exercise-solutions.ipynb) | [./ch07](./ch07) |
@@ -107,7 +107,7 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 - **第3：编码注意力机制**
   - [比较有效的多头注意力实现](ch03/02_bonus_efficient-multihead-attention/mha-implementations.ipynb)
   - [理解 PyTorch 缓冲区](ch03/03_understanding-buffers/understanding-buffers.ipynb)
-- **第 4 章：从头开始实现 GPT 模型**
+- **第 4 章：从零开始实现 GPT 模型**
   - [FLOPS 分析](ch04/02_performance-analysis/flops-analysis.ipynb)
 - **第 5 章：对未标记数据进行预训练：**
   - [使用 Transformers 从 Hugging Face Model Hub 进行替代权重加载](ch05/02_alternative_weight_loading/weight-loading-hf-transformers.ipynb)
@@ -116,7 +116,7 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
   - [优化预训练的超参数](ch05/05_bonus_hparam_tuning)
   - [构建用户界面与预训练的 LLM 交互](ch05/06_user_interface)
   - [将 GPT 转换为 Llama](ch05/07_gpt_to_llama)
-  - [从头开始构建 Llama 3.2](ch05/07_gpt_to_llama/standalone-llama32.ipynb)
+  - [从零开始构建 Llama 3.2](ch05/07_gpt_to_llama/standalone-llama32.ipynb)
   - [内存高效的模型权重加载](ch05/08_memory_efficient_weight_loading/memory-efficient-state-dict.ipynb)
 - **第 6 章：分类微调**
   - [对不同层进行微调并使用更大模型的其他实验](ch06/02_bonus_additional-experiments)
