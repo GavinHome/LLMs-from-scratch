@@ -23,7 +23,7 @@ pip install chainlit
 此文件夹包含 2 个文件：
 
 1. [`app_orig.py`](app_orig.py)：此文件加载并使用来自 OpenAI 的原始 GPT-2 权重。
-2. [`app_own.py`](app_own.py)：此文件加载并使用我们在第 5 章中生成的 GPT-2 权重。这需要您先执行 [`../01_main-chapter-code/ch05.ipynb`](../01_main-chapter-code/ch05.ipynb) 文件。
+2. [`app_own.py`](app_own.py)：此文件加载并使用我们在第 5 章中生成的 GPT-2 权重。这需要您先执行 [`../01_main-chapter-code/ch05.ipynb`](../01_main-chapter-code/ch05.zh.ipynb) 文件。
 
 （打开并检查这些文件以了解更多信息。）
 
