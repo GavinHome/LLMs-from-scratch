@@ -74,7 +74,7 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 | 附录 A：PyTorch 简介 | - [code-part1.ipynb](附录 A/01_main-chapter-code/code-part1.ipynb)<br/>- [code-part2.ipynb](附录 A/01_main-chapter-code/code-part2.ipynb)<br/>- [DDP-script.py](附录 A/01_main-chapter-code/DDP-script.py)<br/>- [exercise-solutions.ipynb](附录 A/01_main-chapter-code/exercise-solutions.ipynb) | [./appendix-A](./appendix-A/README.zh.md) |
 | 附录 B：参考资料和进一步阅读                 | 无代码                                                                                                                          | -                             |
 | 附录 C：练习解决方案                             | 无代码                                                                                                                         | -                             |
-| 附录 D：在训练循环中添加花哨的东西 | - [appendix-D.ipynb](appendix-D/01_main-chapter-code/appendix-D.ipynb)                                                          | [./appendix-D](./appendix-D/README.zh.md) |
+| 附录 D：在训练循环中添加额外的东西 | - [appendix-D.ipynb](appendix-D/01_main-chapter-code/appendix-D.ipynb)                                                          | [./appendix-D](./appendix-D/README.zh.md) |
 | 附录 E：使用 LoRA 进行参数高效微调       | - [appendix-E.ipynb](appendix-E/01_main-chapter-code/appendix-E.ipynb)                                                          | [./appendix-E](./appendix-E/README.zh.md) |
 
 <br>
