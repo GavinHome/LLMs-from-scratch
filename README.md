@@ -64,7 +64,7 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 | 章节标题 | 主代码（用于快速访问） | 所有代码 + 补充 |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | [设置建议](./setup/README.zh.md) | - | - |
-| 第 1 章：了解大型语言模型 | 无代码 | - |
+| 第 1 章：了解大型语言模型 | 无代码 | [./ch01](./ch01/README.zh.md)   |
 | 第 2 章：使用文本数据 | - [ch02.ipynb](ch02/01_main-chapter-code/ch02.ipynb)<br/>- [dataloader.ipynb](ch02/01_main-chapter-code/dataloader.ipynb) (摘要)<br/>- [exercise-solutions.ipynb](ch02/01_main-chapter-code/exercise-solutions.ipynb) | [./ch02](./ch02) |
 | 第 3 章：编码注意力机制 | - [ch03.ipynb](ch03/01_main-chapter-code/ch03.ipynb)<br/>- [multihead-attention.ipynb](ch03/01_main-chapter-code/multihead-attention.ipynb) (摘要) <br/>- [exercise-solutions.ipynb](ch03/01_main-chapter-code/exercise-solutions.ipynb)| [./ch03](./ch03) |
 | 第 4 章：从头开始实现 GPT 模型 | - [ch04.ipynb](ch04/01_main-chapter-code/ch04.ipynb)<br/>- [gpt.py](ch04/01_main-chapter-code/gpt.py) (摘要)<br/>- [exercise-solutions.ipynb](ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](./ch04) |
