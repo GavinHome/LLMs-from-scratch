@@ -22,7 +22,7 @@ pip install chainlit
 
 [`app.py`](app.py) 文件包含基于 UI 的代码。打开并检查这些文件以了解更多信息。
 
-此文件加载并使用我们在第 6 章中生成的 GPT-2 分类器权重。这要求您首先执行 [`../01_main-chapter-code/ch06.ipynb`](../01_main-chapter-code/ch06.ipynb) 文件。
+此文件加载并使用我们在第 6 章中生成的 GPT-2 分类器权重。这要求您首先执行 [`../01_main-chapter-code/ch06.ipynb`](../01_main-chapter-code/ch06.zh.ipynb) 文件。
 
 从终端执行以下命令以启动 UI 服务器：
 
