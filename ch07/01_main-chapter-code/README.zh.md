@@ -2,7 +2,7 @@
 
 ### 主要章节代码
 
-- [ch07.ipynb](ch07.ipynb) 包含本章中出现的所有代码
+- [ch07.ipynb](ch07.zh.ipynb) 包含本章中出现的所有代码
 - [previous_chapters.py](previous_chapters.py) 是一个 Python 模块，其中包含我们在前几章中编码和训练的 GPT 模型，以及许多实用函数，我们在本章中重复使用这些函数
 - [gpt_download.py](gpt_download.py) 包含用于下载预训练 GPT 模型权重的实用函数
 - [exercise-solutions.ipynb](exercise-solutions.ipynb) 包含本章的练习解决方案
