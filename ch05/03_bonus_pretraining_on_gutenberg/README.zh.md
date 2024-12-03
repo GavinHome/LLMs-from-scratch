@@ -70,7 +70,7 @@ sudo apt-get install -y rsync
 ```
 
 > [!NOTE]
-> 有关如何设置 Python 和安装软件包的说明，可在 [可选 Python 设置首选项](../../setup/01_optional-python-setup-preferences/README.md) 和 [安装 Python库](../../setup/02_installing-python-libraries/README.zh.md)。
+> 有关如何设置 Python 和安装软件包的说明，可在 [可选 Python 设置首选项](../../setup/01_optional-python-setup-preferences/README.zh.md) 和 [安装 Python库](../../setup/02_installing-python-libraries/README.zh.md)。
 >
 > 可选地，此存储库提供了一个运行 Ubuntu 的 Docker 映像。有关如何使用提供的 Docker 映像运行容器的说明，请参阅 [可选 Docker 环境](../../setup/03_optional-docker-environment/README.zh.md)。
 
@@ -88,8 +88,8 @@ python prepare_dataset.py \
 
 ```
 ...
-跳过 gutenberg/data/raw/PG29836_raw.txt，因为它不主要包含英文文本。跳过 gutenberg/data/raw/PG16527_raw.txt，因为它不主要包含英文文本。100%|████████████████████████████████████████████████████████| 57250/57250 [25:04<00:00, 38.05it/s]
-42 个文件保存在 /Users/sebastian/Developer/LLMs-from-scratch/ch05/03_bonus_pretraining_on_gutenberg/gutenberg_preprocessed
+Skipping gutenberg/data/raw/PG29836_raw.txt as it does not contain primarily English text.                                     Skipping gutenberg/data/raw/PG16527_raw.txt as it does not contain primarily English text.                                     100%|██████████████████████████████████████████████████████████| 57250/57250 [25:04<00:00, 38.05it/s]
+42 file(s) saved in /Users/sebastian/Developer/LLMs-from-scratch/ch05/03_bonus_pretraining_on_gutenberg/gutenberg_preprocessed
 ```
 
 > [!TIP]
@@ -113,31 +113,31 @@ python pretraining_simple.py \
 
 输出将按以下方式格式化：
 
-> 文件总数：3
-> 标记文件 1/3：data_small/combined_1.txt
-> 训练...
-> 第 1 步（步骤 0）：训练损失 9.694，Val 损失 9.724
-> 第 1 步（步骤 100）：训练损失 6.672，Val 损失 6.683
-> 第 1 步（步骤 200）：训练损失 6.543，Val 损失 6.434
-> 第 1 步（步骤 300）：训练损失5.772，Val 损失 6.313
-> Ep 1（步骤 400）：训练损失 5.547，Val 损失 6.249
-> Ep 1（步骤 500）：训练损失 6.182，Val 损失 6.155
-> Ep 1（步骤 600）：训练损失 5.742，Val 损失 6.122
-> Ep 1（步骤 700）：训练损失 6.309，Val 损失 5.984
-> Ep 1（步骤 800）：训练损失 5.435，Val 损失 5.975
-> Ep 1（步骤 900）：训练损失 5.582，Val 损失 5.935
-> ...
-> Ep 1（步骤 31900）：训练损失 3.664，Val 损失 3.946
-> Ep 1 (步骤 32000)：训练损失 3.493，Val 损失 3.939
-> 第 1 步 (步骤 32100)：训练损失 3.940，Val 损失 3.961
-> 已保存 model_checkpoints/model_pg_32188.pth
-> 处理书籍 3 小时 46 分 55 秒
-> 总耗时 3 小时 46 分 55 秒
-> 剩余书籍的预计到达时间：7 小时 33 分 50 秒
-> 标记文件 2/3：data_small/combined_2.txt
-> 训练...
-> 第 1 步 (步骤 32200)：训练损失 2.982，Val 损失 4.094
-> 第 1 步 (步骤 32300)：训练损失 3.920，Val 损失 4.097
+> Total files: 3  
+> Tokenizing file 1 of 3: data_small/combined_1.txt  
+> Training ...  
+> Ep 1 (Step 0): Train loss 9.694, Val loss 9.724  
+> Ep 1 (Step 100): Train loss 6.672, Val loss 6.683  
+> Ep 1 (Step 200): Train loss 6.543, Val loss 6.434  
+> Ep 1 (Step 300): Train loss 5.772, Val loss 6.313  
+> Ep 1 (Step 400): Train loss 5.547, Val loss 6.249  
+> Ep 1 (Step 500): Train loss 6.182, Val loss 6.155  
+> Ep 1 (Step 600): Train loss 5.742, Val loss 6.122  
+> Ep 1 (Step 700): Train loss 6.309, Val loss 5.984  
+> Ep 1 (Step 800): Train loss 5.435, Val loss 5.975  
+> Ep 1 (Step 900): Train loss 5.582, Val loss 5.935  
+> ...  
+> Ep 1 (Step 31900): Train loss 3.664, Val loss 3.946  
+> Ep 1 (Step 32000): Train loss 3.493, Val loss 3.939  
+> Ep 1 (Step 32100): Train loss 3.940, Val loss 3.961  
+> Saved model_checkpoints/model_pg_32188.pth  
+> Book processed 3h 46m 55s   
+> Total time elapsed 3h 46m 55s   
+> ETA for remaining books: 7h 33m 50s  
+> Tokenizing file 2 of 3: data_small/combined_2.txt  
+> Training ...  
+> Ep 1 (Step 32200): Train loss 2.982, Val loss 4.094  
+> Ep 1 (Step 32300): Train loss 3.920, Val loss 4.097  
 > ...
 
 &nbsp;
