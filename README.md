@@ -89,7 +89,7 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 
 ## 硬件要求
 
-本书主要章节中的代码旨在在合理的时间范围内在传统笔记本电脑上运行，并且不需要专门的硬件。这种方法可确保广大受众能够参与其中。此外，如果 GPU 可用，代码会自动利用它们。（请参阅 [setup](https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/README.zh.md) 文档以获取更多建议。）
+本书主要章节中的代码旨在在合理的时间范围内在传统笔记本电脑上运行，并且不需要专门的硬件。这种方法可确保广大受众能够参与其中。此外，如果 GPU 可用，代码会自动利用它们。（请参阅 [setup](./setup/README.zh.md) 文档以获取更多建议。）
 
 &nbsp;
 ## 奖励材料
