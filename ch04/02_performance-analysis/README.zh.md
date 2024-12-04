@@ -1,4 +1,4 @@
-# 第 4 章：从头开始实现 GPT 模型以生成文本
+# 第 4 章：从零开始实现 GPT 模型
 
 - [flops-analysis.ipynb](flops-analysis.ipynb) 分析主要章节中实现的 GPT 模型的每秒浮点运算次数 (FLOPS)。
 - [previous_chapters.py](previous_chapters.py) 是一个 Python 模块，包含我们在第 4 章中实现的 `GPTModel` 代码和在前几章中实现的其他代码，我们将其导入分析笔记本中。
