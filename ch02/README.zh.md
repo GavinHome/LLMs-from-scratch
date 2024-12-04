@@ -3,7 +3,7 @@
 &nbsp;
 ## 主章节代码
 
-- [01_main-chapter-code](01_main-chapter-code/README.zh.md) 包含主要的章节代码和练习解决方案
+- [01_main-chapter-code](01_main-chapter-code/README.zh.md) 包含主要章节代码和练习解决方案
 
 &nbsp;
 ## 奖励材料
