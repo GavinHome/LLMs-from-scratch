@@ -68,9 +68,9 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 | 第 2 章：处理文本数据 | - [ch02.ipynb](ch02/01_main-chapter-code/ch02.zh.ipynb)<br/>- [dataloader.ipynb](ch02/01_main-chapter-code/dataloader.ipynb) (摘要)<br/>- [exercise-solutions.ipynb](ch02/01_main-chapter-code/exercise-solutions.ipynb) | [./ch02](./ch02/README.zh.md) |
 | 第 3 章：编写注意力机制 | - [ch03.ipynb](ch03/01_main-chapter-code/ch03.zh.ipynb)<br/>- [multihead-attention.ipynb](ch03/01_main-chapter-code/multihead-attention.ipynb) (摘要) <br/>- [exercise-solutions.ipynb](ch03/01_main-chapter-code/exercise-solutions.ipynb)| [./ch03](./ch03/README.zh.md) |
 | 第 4 章：从零开始实现 GPT 模型 | - [ch04.ipynb](ch04/01_main-chapter-code/ch04.zh.ipynb)<br/>- [gpt.py](ch04/01_main-chapter-code/gpt.py) (摘要)<br/>- [exercise-solutions.ipynb](ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](./ch04/README.zh.md) |
-| 第 5 章：对未标记数据进行预训练 | - [ch05.ipynb](ch05/01_main-chapter-code/ch05.zh.ipynb)<br/>- [gpt_train.py](ch05/01_main-chapter-code/gpt_train.py) (摘要) <br/>- [gpt_generate.py](ch05/01_main-chapter-code/gpt_generate.py) (摘要) <br/>- [exercise-solutions.ipynb](ch05/01_main-chapter-code/exercise-solutions.ipynb) | [./ch05](./ch05/README.zh.md) |
+| 第 5 章：使用未标记的数据进行预训练 | - [ch05.ipynb](ch05/01_main-chapter-code/ch05.zh.ipynb)<br/>- [gpt_train.py](ch05/01_main-chapter-code/gpt_train.py) (摘要) <br/>- [gpt_generate.py](ch05/01_main-chapter-code/gpt_generate.py) (摘要) <br/>- [exercise-solutions.ipynb](ch05/01_main-chapter-code/exercise-solutions.ipynb) | [./ch05](./ch05/README.zh.md) |
 | 第 6 章：文本分类的微调 | - [ch06.ipynb](ch06/01_main-chapter-code/ch06.zh.ipynb) <br/>- [gpt_class_finetune.py](ch06/01_main-chapter-code/gpt_class_finetune.py) <br/>- [exercise-solutions.ipynb](ch06/01_main-chapter-code/exercise-solutions.ipynb) | [./ch06](./ch06/README.zh.md) |
-| 第 7 章：微调以遵循指令 | - [ch07.ipynb](ch07/01_main-chapter-code/ch07.zh.ipynb)<br/>- [gpt_instruction_finetuning.py](ch07/01_main-chapter-code/gpt_instruction_finetuning.py) (摘要)<br/>- [ollama_evaluate.py](ch07/01_main-chapter-code/ollama_evaluate.py) (摘要)<br/>- [exercise-solutions.ipynb](ch07/01_main-chapter-code/exercise-solutions.ipynb) | [./ch07](./ch07/README.zh.md) |
+| 第 7 章：根据指令进行微调 | - [ch07.ipynb](ch07/01_main-chapter-code/ch07.zh.ipynb)<br/>- [gpt_instruction_finetuning.py](ch07/01_main-chapter-code/gpt_instruction_finetuning.py) (摘要)<br/>- [ollama_evaluate.py](ch07/01_main-chapter-code/ollama_evaluate.py) (摘要)<br/>- [exercise-solutions.ipynb](ch07/01_main-chapter-code/exercise-solutions.ipynb) | [./ch07](./ch07/README.zh.md) |
 | 附录 A：PyTorch 简介 | - [code-part1.ipynb](./appendix-A/01_main-chapter-code/code-part1.ipynb)<br/>- [code-part2.ipynb](./appendix-A/01_main-chapter-code/code-part2.ipynb)<br/>- [DDP-script.py](./appendix-A/01_main-chapter-code/DDP-script.py)<br/>- [exercise-solutions.ipynb](./appendix-A/01_main-chapter-code/exercise-solutions.ipynb) | [./appendix-A](./appendix-A/README.zh.md) |
 | 附录 B：参考资料和进一步阅读                 | 无代码                                                                                                                          | -                             |
 | 附录 C：练习解决方案                             | 无代码                                                                                                                         | -                             |
@@ -100,16 +100,16 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
   - [Python 设置提示](setup/01_optional-python-setup-preferences/README.zh.md)
   - [安装本书中使用的 Python 包和库](setup/02_installing-python-libraries/README.zh.md)
   - [Docker 环境设置指南](setup/03_optional-docker-environment/README.zh.md)
-- **第 2 章：使用文本数据**
+- **第 2 章：处理文本数据**
   - [比较各种字节对编码 (BPE) 实现](ch02/02_bonus_bytepair-encoder/README.zh.md)
   - [理解嵌入层和线性层之间的区别](ch02/03_bonus_embedding-vs-matmul/README.zh.md)
   - [使用简单数字的数据加载器直觉](ch02/04_bonus_dataloader-intuition/README.zh.md)
-- **第3：编码注意力机制**
+- **第3：编写注意力机制**
   - [比较有效的多头注意力实现](ch03/02_bonus_efficient-multihead-attention/mha-implementations.ipynb)
   - [理解 PyTorch 缓冲区](ch03/03_understanding-buffers/understanding-buffers.ipynb)
 - **第 4 章：从零开始实现 GPT 模型**
   - [FLOPS 分析](ch04/02_performance-analysis/flops-analysis.ipynb)
-- **第 5 章：对未标记数据进行预训练：**
+- **第 5 章：使用未标记的数据进行预训练：**
   - [使用 Transformers 从 Hugging Face Model Hub 进行替代权重加载](ch05/02_alternative_weight_loading/weight-loading-hf-transformers.ipynb)
   - [在 Project Gutenberg 上对 GPT 进行预训练数据集](ch05/03_bonus_pretraining_on_gutenberg/README.zh.md)
   - [为训练循环添加额外功能](ch05/04_learning_rate_schedulers/README.zh.md)
@@ -122,7 +122,7 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
   - [对不同层进行微调并使用更大模型的其他实验](ch06/02_bonus_additional-experiments/README.zh.md)
   - [在 50k IMDB 电影评论数据集上对不同模型进行微调](ch06/03_bonus_imdb-classification/README.zh.md)
   - [构建用户界面进行交互使用基于 GPT 的垃圾邮件分类器](ch06/04_user_interface/README.zh.md)
-- **第 7 章：微调以遵循指令**
+- **第 7 章：根据指令进行微调**
   - [用于查找近似重复和创建被动语态条目的数据集实用程序](ch07/02_dataset-utilities/README.zh.md)
   - [使用 OpenAI API 和 Ollama 评估指令响应](ch07/03_model-evaluation/README.zh.md)
   - [生成用于指令微调的数据集](ch07/05_dataset-generation/llama3-ollama.ipynb)
