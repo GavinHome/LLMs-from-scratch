@@ -110,7 +110,7 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 - **第 4 章：从零开始实现 GPT 模型**
   - [FLOPS 分析](ch04/02_performance-analysis/flops-analysis.zh.ipynb)
 - **第 5 章：使用未标记的数据进行预训练：**
-  - [使用 Transformers 从 Hugging Face Model Hub 进行替代权重加载](ch05/02_alternative_weight_loading/weight-loading-hf-transformers.ipynb)
+  - [使用 Transformers 从 Hugging Face Model Hub 进行替代权重加载](ch05/02_alternative_weight_loading/weight-loading-hf-transformers.zh.ipynb)
   - [在 Project Gutenberg 上对 GPT 进行预训练数据集](ch05/03_bonus_pretraining_on_gutenberg/README.zh.md)
   - [为训练循环添加额外功能](ch05/04_learning_rate_schedulers/README.zh.md)
   - [优化预训练的超参数](ch05/05_bonus_hparam_tuning/README.zh.md)
