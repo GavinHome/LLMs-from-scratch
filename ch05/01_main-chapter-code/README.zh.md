@@ -5,7 +5,7 @@
 - [ch05.ipynb](ch05.zh.ipynb) 包含本章中出现的所有代码
 - [previous_chapters.py](previous_chapters.py) 是一个 Python 模块，其中包含前几章中的 `MultiHeadAttention` 模块和 `GPTModel` 类，我们在 [ch05.ipynb](ch05.zh.ipynb) 中导入它们以预训练 GPT 模型
 - [gpt_download.py](gpt_download.py) 包含用于下载预训练 GPT 模型权重的实用函数
-- [exercise-solutions.ipynb](exercise-solutions.ipynb) 包含本章的练习解决方案
+- [exercise-solutions.ipynb](exercise-solutions.zh.ipynb) 包含本章的练习解决方案
 
 ### 可选代码
 
