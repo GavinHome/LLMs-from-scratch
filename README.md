@@ -66,7 +66,7 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 | [设置建议](./setup/README.zh.md) | - | - |
 | 第 1 章：了解大型语言模型 | 无代码 | [./ch01](./ch01/README.zh.md)   |
 | 第 2 章：处理文本数据 | - [ch02.ipynb](ch02/01_main-chapter-code/ch02.zh.ipynb)<br/>- [dataloader.ipynb](ch02/01_main-chapter-code/dataloader.zh.ipynb) (摘要)<br/>- [exercise-solutions.ipynb](ch02/01_main-chapter-code/exercise-solutions.zh.ipynb) | [./ch02](./ch02/README.zh.md) |
-| 第 3 章：编写注意力机制 | - [ch03.ipynb](ch03/01_main-chapter-code/ch03.zh.ipynb)<br/>- [multihead-attention.ipynb](ch03/01_main-chapter-code/multihead-attention.ipynb) (摘要) <br/>- [exercise-solutions.ipynb](ch03/01_main-chapter-code/exercise-solutions.ipynb)| [./ch03](./ch03/README.zh.md) |
+| 第 3 章：编写注意力机制 | - [ch03.ipynb](ch03/01_main-chapter-code/ch03.zh.ipynb)<br/>- [multihead-attention.ipynb](ch03/01_main-chapter-code/multihead-attention.zh.ipynb) (摘要) <br/>- [exercise-solutions.ipynb](ch03/01_main-chapter-code/exercise-solutions.zh.ipynb)| [./ch03](./ch03/README.zh.md) |
 | 第 4 章：从零开始实现 GPT 模型 | - [ch04.ipynb](ch04/01_main-chapter-code/ch04.zh.ipynb)<br/>- [gpt.py](ch04/01_main-chapter-code/gpt.py) (摘要)<br/>- [exercise-solutions.ipynb](ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](./ch04/README.zh.md) |
 | 第 5 章：使用未标记的数据进行预训练 | - [ch05.ipynb](ch05/01_main-chapter-code/ch05.zh.ipynb)<br/>- [gpt_train.py](ch05/01_main-chapter-code/gpt_train.py) (摘要) <br/>- [gpt_generate.py](ch05/01_main-chapter-code/gpt_generate.py) (摘要) <br/>- [exercise-solutions.ipynb](ch05/01_main-chapter-code/exercise-solutions.ipynb) | [./ch05](./ch05/README.zh.md) |
 | 第 6 章：文本分类的微调 | - [ch06.ipynb](ch06/01_main-chapter-code/ch06.zh.ipynb) <br/>- [gpt_class_finetune.py](ch06/01_main-chapter-code/gpt_class_finetune.py) <br/>- [exercise-solutions.ipynb](ch06/01_main-chapter-code/exercise-solutions.ipynb) | [./ch06](./ch06/README.zh.md) |
@@ -105,8 +105,8 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
   - [理解嵌入层和线性层之间的区别](ch02/03_bonus_embedding-vs-matmul/README.zh.md)
   - [使用简单数字的数据加载器直觉](ch02/04_bonus_dataloader-intuition/README.zh.md)
 - **第3：编写注意力机制**
-  - [比较有效的多头注意力实现](ch03/02_bonus_efficient-multihead-attention/mha-implementations.ipynb)
-  - [理解 PyTorch 缓冲区](ch03/03_understanding-buffers/understanding-buffers.ipynb)
+  - [比较有效的多头注意力实现](ch03/02_bonus_efficient-multihead-attention/mha-implementations.zh.ipynb)
+  - [理解 PyTorch 缓冲区](ch03/03_understanding-buffers/understanding-buffers.zh.ipynb)
 - **第 4 章：从零开始实现 GPT 模型**
   - [FLOPS 分析](ch04/02_performance-analysis/flops-analysis.ipynb)
 - **第 5 章：使用未标记的数据进行预训练：**
