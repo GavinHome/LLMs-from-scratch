@@ -6,4 +6,4 @@
 
 ### 可选代码
 
-- [multihead-attention.ipynb](multihead-attention.ipynb) 是一个极简笔记本，其中包含本章中实现的主要数据加载管道
+- [multihead-attention.ipynb](multihead-attention.zh.ipynb) 是一个极简笔记本，其中包含本章中实现的主要数据加载管道

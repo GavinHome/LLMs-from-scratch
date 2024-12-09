@@ -167,6 +167,6 @@ python -u pretraining_simple.py | tee log.txt
 4. 更新预训练脚本以保存优化器状态（请参阅第 5 章中的 *5.4 在 PyTorch 中加载和保存权重* 部分；[ch05.ipynb](../../ch05/01_main-chapter-code/ch05.zh.ipynb))，并添加加载现有模型和优化器检查点并在训练运行中断时继续训练的选项。
 5. 添加更高级的记录器（例如，权重和偏差）以实时查看损失和验证曲线
 6. 添加分布式数据并行 (DDP) 并在多个 GPU 上训练模型（请参阅附录 A 中的 *A.9.3 使用多个 GPU 进行训练* 部分；[DDP-script.py](../../appendix-A/01_main-chapter-code/DDP-script.py))。
-7. 将 `previous_chapter.py` 脚本中从头开始的 `MultiheadAttention` 类与 [高效多头注意力实现](../../ch03/02_bonus_efficient-multihead-attention/mha-implementations.ipynb) 奖励部分中实现的高效 `MHAPyTorchScaledDotProduct` 类进行交换，该类通过 PyTorch 的 `nn. functional.scaled_dot_product_attention` 函数使用 Flash Attention。
+7. 将 `previous_chapter.py` 脚本中从头开始的 `MultiheadAttention` 类与 [高效多头注意力实现](../../ch03/02_bonus_efficient-multihead-attention/mha-implementations.zh.ipynb) 奖励部分中实现的高效 `MHAPyTorchScaledDotProduct` 类进行交换，该类通过 PyTorch 的 `nn. functional.scaled_dot_product_attention` 函数使用 Flash Attention。
 8. 通过 [torch.compile](https://pytorch.org/tutorials/intermediate/torch_compile_tutorial.html) (`model = torch.compile`) 或 [thunder](https://github.com/Lightning-AI/lightning-thunder) (`model = thunder.jit(model)`) 优化模型，从而加快训练速度。
 9. 实现梯度低秩投影 (GaLore)，进一步加快预训练过程。只需将 `AdamW` 优化器替换为 [GaLore Python 库](https://github.com/jiaweizzhao/GaLore) 中提供的 `GaLoreAdamW` 即可实现。
