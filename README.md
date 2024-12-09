@@ -116,7 +116,7 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
   - [优化预训练的超参数](ch05/05_bonus_hparam_tuning/README.zh.md)
   - [构建用户界面与预训练的 LLM 交互](ch05/06_user_interface/README.zh.md)
   - [将 GPT 转换为 Llama](ch05/07_gpt_to_llama/README.zh.md)
-  - [从零开始构建 Llama 3.2](ch05/07_gpt_to_llama/standalone-llama32.ipynb)
+  - [从零开始构建 Llama 3.2](ch05/07_gpt_to_llama/standalone-llama32.zh.ipynb)
   - [内存高效的模型权重加载](ch05/08_memory_efficient_weight_loading/memory-efficient-state-dict.zh.ipynb)
 - **第 6 章：文本分类的微调**
   - [对不同层进行微调并使用更大模型的其他实验](ch06/02_bonus_additional-experiments/README.zh.md)
