@@ -75,7 +75,7 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
 | 附录 B：参考资料和进一步阅读                 | 无代码                                                                                                                          | -                             |
 | 附录 C：练习解决方案                             | 无代码                                                                                                                         | -                             |
 | 附录 D：为训练过程添加额外的功能和特性 | - [appendix-D.ipynb](appendix-D/01_main-chapter-code/appendix-D.zh.ipynb)                                                          | [./appendix-D](./appendix-D/README.zh.md) |
-| 附录 E：使用 LoRA 进行参数高效微调       | - [appendix-E.ipynb](appendix-E/01_main-chapter-code/appendix-E.ipynb)                                                          | [./appendix-E](./appendix-E/README.zh.md) |
+| 附录 E：使用 LoRA 进行参数高效微调       | - [appendix-E.ipynb](appendix-E/01_main-chapter-code/appendix-E.zh.ipynb)                                                          | [./appendix-E](./appendix-E/README.zh.md) |
 
 <br>
 &nbsp;
