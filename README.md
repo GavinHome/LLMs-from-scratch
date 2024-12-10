@@ -127,8 +127,8 @@ git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git
   - [使用 OpenAI API 和 Ollama 评估指令响应](ch07/03_model-evaluation/README.zh.md)
   - [生成用于指令微调的数据集](ch07/05_dataset-generation/llama3-ollama.ipynb)
   - [改进用于指令微调的数据集](ch07/05_dataset-generation/reflection-gpt4.ipynb)
-  - [使用 Llama 3.1 70B 和Ollama](ch07/04_preference-tuning-with-dpo/create-preference-data-ollama.ipynb)
-  - [LLM 对齐的直接偏好优化 (DPO)](ch07/04_preference-tuning-with-dpo/dpo-from-scratch.ipynb)
+  - [使用 Llama 3.1 70B 和Ollama](ch07/04_preference-tuning-with-dpo/create-preference-data-ollama.zh.ipynb)
+  - [LLM 对齐的直接偏好优化 (DPO)](ch07/04_preference-tuning-with-dpo/dpo-from-scratch.zh.ipynb)
   - [构建用户界面以与指令微调 GPT 模型交互](ch07/06_user_interface/README.zh.md)
 
 <br>
