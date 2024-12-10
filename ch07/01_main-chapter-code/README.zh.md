@@ -9,7 +9,7 @@
 
 ### 可选代码
 
-- [load-finetuned-model.ipynb](load-finetuned-model.ipynb) 是一个独立的 Jupyter 笔记本，用于加载我们在本章中创建的指令微调模型
+- [load-finetuned-model.ipynb](load-finetuned-model.zh.ipynb) 是一个独立的 Jupyter 笔记本，用于加载我们在本章中创建的指令微调模型
 
 - [gpt_instruction_finetuning.py](gpt_instruction_finetuning.py) 是一个独立的 Python 脚本，用于按照主要章节中的说明对模型进行微调（可以将其视为专注于微调部分的章节摘要）
 
